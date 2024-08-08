@@ -1,0 +1,4 @@
+[INFO ] 2024-08-06 20:41:10.054 [main] log - visiting google.com
+[WARN ] 2024-08-06 20:41:15.545 [main] log - finding the element
+[INFO ] 2024-08-06 20:41:18.858 [main] log - searching as selenium using keyboard
+[INFO ] 2024-08-06 20:41:20.860 [main] log - going to close

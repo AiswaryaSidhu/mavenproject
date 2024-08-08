@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="A" value="aiswarya.hngopal"></parameter>
+<parameter name="B" value="aishu@123"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.attributes"/>
+      <class name="suiteExe1.c1"/>
+      <class name="testng.testngBasics"/>
+      <class name="testngAssertion.softAssert"/>
+      <class name="parameterization.p1"/>
+      <class name="testng.testngAttributes_login"/>
+      <class name="suiteExe1.c2"/>
+      <class name="suiteExe2.c3"/>
+      <class name="testngAssertion.hardAssert"/>
+      <class name="testng.annotations"/>
+      <class name="screenshot.ss"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
